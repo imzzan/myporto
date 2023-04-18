@@ -13,8 +13,8 @@ const Project = () => {
               <div className='h-auto bg-white shadow-xl rounded-xl border border-blue'>
                 <img src={item.image} alt="image" className=' h-[100px] md:h-[150px] w-full object-cover rounded-t-xl'/>
                 <div className='mt-1 p-3 flex flex-col justify-between gap-5'>
-                  <h1 className=' font-bold text-sm lg:text-lg text-black'>{item.name}</h1>
-                  <a href={item.link} target='_blank' className='text-[12px] md:text-sm lg:text-[16px] text-blue underline'>See Preview</a>
+                  <h1 className=' font-bold text-[18px] lg:text-[20px] text-black'>{item.name}</h1>
+                  <a href={item.link} target='_blank' className='text-[16px] md:text-sm lg:text-[16px] text-blue underline'>See Preview</a>
                 </div>
               </div>
             )
