@@ -17,7 +17,7 @@ const Hero = () => {
           <p className=' dark:text-white text-[16px] lg:text-lg text-black mt-2 lg:text-center'>I am a junior frontend developer and student at one of the campuses in Cirebon, West Java. I like to learn about new things in my spare time especially in web technology and mobile apps.</p>
           <div className='flex justify-center mt-5 gap-5'>
             <Button1 name='See Project' className=' hidden md:block'/>
-            <Button2 name='Download Resume'/>
+            <Button2 name='Download Resumes'/>
           </div>
       </div>
       <div className='justify-end gap-4 mt-5 hidden xl:flex'>
