@@ -4,13 +4,13 @@ import { cer_css, cer_dibim1, cer_dibim2, cer_html, cer_jsdasar, cer_jsinter, ce
 
 const Learning = () => {
   return (
-    <div className=" bg-primary dark:bg-darkblue pt-5 md:pt-10 w-full h-screen" id='achive'>
+    <div className=" bg-primary dark:bg-darkblue pb-10 w-full h-screen" id='achive'>
       <h1 className=" font-bold dark:text-white text-[20px] text-center pt-5 text-black">Achivment</h1>
       <div className=" w-4 h-4  bg-gradient-to-t from-[rgb(33,87,242)] to-[#A6BCFA] rounded-full mx-auto"></div>
       <Carousel
       withIndicators
-      height={200}
-      className=" my-5"
+      height={220}
+      className=" my-5 w-full"
       slideSize="33.333333%"
       slideGap="md"
       loop

@@ -12,7 +12,7 @@ const Hero = () => {
       <img src={ellipse} alt="ellipse" className=' absolute bottom-36 right-24 hidden lg:block' />
       <img src={plus} alt="plus" className=' absolute top-[200px] left-[30%] hidden lg:block'/>
       <div className=' w-full h-fit cardprofile mt-11 sm:mt-20 md:mt-16 border border-blue pt-5 px-5 md:px-20 pb-6'>
-          <img src={profile} alt="profile" className=' block mx-auto w-32 lg:w-48'/>
+          <img src={profile} alt="profile" className=' block mx-auto w-40 lg:w-48'/>
           <h1 className=' dark:text-white font-bold text-2xl md:text-4xl lg:text-5xl text-black mt-3 lg:text-center'>I’m <span className=' text-blue dark:text-darkblue'>Muhamad</span> Muzani</h1>
           <p className=' dark:text-white text-sm lg:text-lg text-black mt-2 lg:text-center'>I am a junior frontend developer and student at one of the campuses in Cirebon, West Java. I like to learn about new things in my spare time especially in web technology and mobile apps.</p>
           <div className='flex justify-center mt-5 gap-5'>

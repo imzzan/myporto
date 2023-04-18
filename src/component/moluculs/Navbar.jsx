@@ -57,7 +57,7 @@ const Navbar = ({darkTheme, setDarkTheme}) => {
       )}
     >
       <div className="flex justify-between items-center">
-        <img src={darkTheme ? logowhite : logo} alt="logo" className=" w-14" />
+      <Link smooth spy to='home'><img src={darkTheme ? logowhite : logo} alt="logo" className=" w-14 cursor-pointer" /></Link>
         <div className="flex items-center gap-2 md:gap-8">
           <div className="gap-8 items-center hidden lg:flex">
             {navlinks.map((item, i) => {
