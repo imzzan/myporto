@@ -10,7 +10,7 @@ const Project = () => {
         {
           project.map((item, i) => {
             return (
-              <div className='h-auto bg-white shadow-xl rounded-xl border border-blue'>
+              <div className='h-auto bg-white shadow-xl rounded-xl border border-blue' data-aos={item.aos} data-aos-delay={item.delay}>
                 <img src={item.image} alt="image" className=' h-[100px] md:h-[150px] w-full object-cover rounded-t-xl'/>
                 <div className='mt-1 p-3 flex flex-col justify-between gap-5'>
                   <h1 className=' font-bold text-[18px] lg:text-[20px] text-black'>{item.name}</h1>

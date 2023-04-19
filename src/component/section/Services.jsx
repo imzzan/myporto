@@ -10,7 +10,7 @@ const Services = () => {
         {
             services.map((item, i) => {
                 return (
-                    <div className=' border border-blue text-center p-3 rounded-xl'>
+                    <div className=' border border-blue text-center p-3 rounded-xl' data-aos={item.aos}>
                         <img src={item.image} alt="image" className=' w-[35px] mx-auto mb-3'/>
                         <h1 className=' font-[500] text-sm dark:text-white lg:text-[16px] text-black'>{item.name}</h1>
                     </div>

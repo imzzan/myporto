@@ -7,7 +7,7 @@ const Apps = () => {
         {
             apps.map((item, i) => {
                 return (
-                    <div className=' bg-primary dark:bg-darkblue cardapps'>
+                    <div className=' bg-primary dark:bg-darkblue cardapps' data-aos={item.aos}>
                         <img src={item.image} alt="image" className=' w-[50px] lg:w-[70px] mx-auto -mt-5 bg-white p-1 rounded-full'/>
                         <p className='my-3 text-center font-bold text-white lg:text-xl'>{item.name}</p>
                     </div>

@@ -57,6 +57,8 @@ import cer_dibim2 from "./dibim_2.jpg";
 import cer_oracle1 from "./oracle_1.jpg";
 import cer_oracle2 from "./oracle_2.jpg";
 import wavedark from './wavedark.svg';
+import figma from './figma.svg';
+import web from './web-development.svg';
 
 export {
   ae,
@@ -117,5 +119,7 @@ export {
   cer_dibim2,
   cer_oracle1,
   cer_oracle2,
-  wavedark
+  wavedark,
+  figma,
+  web
 };

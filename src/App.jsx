@@ -13,6 +13,10 @@ import {
   Services,
 } from "./component";
 import { wave, wavedark } from "./assets";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false);
