@@ -1,5 +1,6 @@
-import React from 'react'
-import { apps } from '../../constants'
+import React from 'react';
+import { apps } from '../../constants';
+
 
 const Apps = () => {
   return (

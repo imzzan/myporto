@@ -28,7 +28,7 @@ const About = () => {
               }
             </div>
         </div>
-        <img src={location} alt="location" className=' absolute bottom-1/4 w-full md:w-[300px] lg:w-[80%] -z-10' data-aos="zoom-in"/>
+        <img src={location} alt="location" className=' absolute bottom-1/4 w-[250px] md:w-[300px] lg:w-[80%] -z-10' data-aos="zoom-in"/>
         <img src={person} alt="person" className=' absolute bottom-0 right-0 w-[200px] md:w-[250px] lg:w-[30%] ' data-aos="fade-up"/>
     </div>
   )
