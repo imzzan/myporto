@@ -4,7 +4,13 @@ import { apps } from '../../constants';
 import {plus, ellipse, profile} from '../../assets'
 import { Button1, Button2 } from '../atoms';
 
+
 const Hero = () => {
+
+  const downloadCv = () => {
+    window.open("https://drive.google.com/file/d/1mfNQfsgMyc06WoPUzG8GnT71B5qEGUoc/view?usp=share_link", "_blank")
+  }
+
   return (
     <div className=' w-full absolute p-9 xl:px-20' id='home'>
       <img src={plus} alt="plus" className=' absolute top-[60px] right-8'/>
@@ -17,7 +23,7 @@ const Hero = () => {
           <p className=' dark:text-white text-[16px] lg:text-lg text-black mt-2 lg:text-center'>I am a junior frontend developer and student at one of the campuses in Cirebon, West Java. I like to learn about new things in my spare time especially in web technology and mobile apps.</p>
           <div className='flex justify-center mt-5 gap-5'>
             <Button1 name='See Project' className=' hidden md:block'/>
-            <Button2 name='Download Resumes'/>
+            <Button2 name='Download Resumes' onclick={downloadCv}/>
           </div>
       </div>
       <div className='justify-end gap-4 mt-5 hidden xl:flex'>
