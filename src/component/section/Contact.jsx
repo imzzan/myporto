@@ -53,21 +53,21 @@ const Contact = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="name"
-              className=" lg:w-[49%] p-1 w-full outline-none rounded-md pl-2 dark:bg-[#393838]"
+              className=" lg:w-[49%] p-1 w-full outline-none rounded-md pl-2 dark:bg-[#393838] bg-gray-200"
             />
             <input
               type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="email"
-              className=" w-full lg:w-[49%] p-1 outline-none rounded-md pl-2 dark:bg-[#393838]"
+              className=" w-full lg:w-[49%] p-1 outline-none rounded-md pl-2 dark:bg-[#393838] bg-gray-200"
             />
           </div>
           <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="message"
-            className="outline-none rounded-md w-full h-[100px] lg:h-[150px] pl-2 mb-3 md:mb-4 dark:bg-[#393838]"
+            className="outline-none rounded-md w-full h-[100px] lg:h-[150px] pl-2 mb-3 md:mb-4 dark:bg-[#393838] bg-gray-200"
           ></textarea>
           <Button1 name="Send" />
         </form>
