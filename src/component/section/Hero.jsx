@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from "react-scroll";
 
 import { apps } from '../../constants';
 import {plus, ellipse, profile} from '../../assets'
 import { Button1, Button2 } from '../atoms';
+
 
 
 const Hero = () => {
@@ -21,8 +23,8 @@ const Hero = () => {
           <img src={profile} alt="profile" className=' block mx-auto w-40 lg:w-44'/>
           <h1 className=' dark:text-white font-bold text-3xl md:text-4xl lg:text-5xl text-black mt-3 lg:text-center'>I’m <span className=' text-blue dark:text-darkblue'>Muhamad</span> Muzani</h1>
           <p className=' dark:text-white text-[16px] lg:text-lg text-black mt-2 lg:text-center'>I am a junior frontend developer and student at one of the campuses in Cirebon, West Java. I like to learn about new things in my spare time especially in web technology and mobile apps.</p>
-          <div className='flex justify-center mt-5 gap-5'>
-            <Button1 name='See Project' className=' hidden md:block'/>
+          <div className='flex justify-center items-center mt-5 gap-5'>
+          <Link smooth spy to='project'><Button1 name='See Project' className=' hidden md:block'/></Link>
             <Button2 name='Download Resumes' onclick={downloadCv}/>
           </div>
       </div>
