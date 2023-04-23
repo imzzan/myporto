@@ -68,10 +68,6 @@ const Project = () => {
                     <h1 className=" mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                       {item.name}
                     </h1>
-                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Repudiandae, quam.
-                    </p>
                     <button
                       onClick={() => window.open(item.link)}
                       type="button"
