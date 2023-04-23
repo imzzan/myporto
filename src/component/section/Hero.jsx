@@ -10,7 +10,7 @@ import { Button1, Button2 } from '../atoms';
 const Hero = () => {
 
   const downloadCv = () => {
-    window.open("https://drive.google.com/file/d/1mfNQfsgMyc06WoPUzG8GnT71B5qEGUoc/view?usp=share_link", "_blank")
+    window.open("https://drive.google.com/file/d/1aTDW7ZqCfiwP81-jPkatjXHT3_gw7Qp5/view?usp=share_link", "_blank")
   }
 
   return (
@@ -21,8 +21,10 @@ const Hero = () => {
       <img src={plus} alt="plus" className=' absolute top-[200px] left-[30%] hidden lg:block'/>
       <div className=' w-full h-fit cardprofile mt-11 sm:mt-20 md:mt-16 border border-blue pt-5 px-5 md:px-20 pb-6'>
           <img src={profile} alt="profile" className=' block mx-auto w-40 lg:w-44'/>
-          <h1 className=' dark:text-white font-bold text-3xl md:text-4xl lg:text-5xl text-black mt-3 lg:text-center'>I’m <span className=' text-blue dark:text-darkblue'>Muhamad</span> Muzani</h1>
-          <p className=' dark:text-white text-[16px] lg:text-lg text-black mt-2 lg:text-center'>I am a junior frontend developer and student at one of the campuses in Cirebon, West Java. I like to learn about new things in my spare time especially in web technology and mobile apps.</p>
+          <h1 className=' dark:text-white font-bold text-3xl md:text-4xl lg:text-4xl text-black mt-1 lg:text-center'>I’m <span className=' text-blue dark:text-darkblue'>Muhamad</span> Muzani</h1>
+          <p className=' dark:text-white text-[16px] lg:text-lg text-black mt-2 lg:text-center'>Junior Frontend Developer with over two years of experience. Skilled and experienced in designing,
+developing, and testing website using up-to-date technologies. Have professionally used HTML, CSS &
+Javascript especially ReactJs & NextJs.</p>
           <div className='flex justify-center items-center mt-5 gap-5'>
           <Link smooth spy to='project'><Button1 name='See Project' className=' hidden md:block'/></Link>
             <Button2 name='Download Resumes' onclick={downloadCv}/>
