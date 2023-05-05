@@ -1,4 +1,4 @@
-import { blog, web, chart, crypto, css, edit, email, fbclone, figma, html, image, js, locationicon, memorize, mernfb, myfriend, nefa, nextblog, nft, notebook, notepad, porto, ps, react, statistike, telephone, todo1, todo2, twitterclone, whitespace, zanzan } from "../assets";
+import {web, chart, crypto, css, edit, email, fbclone, figma, html, image, js, locationicon, memorize, mernfb, myfriend, nefa, nextblog, nft, notebook, notepad, porto, ps, react, statistike, telephone, todo1, todo2, twitterclone, whitespace, zanzan } from "../assets";
 
 export const navlinks = [
   {
@@ -56,15 +56,9 @@ export const project = [
   },
   {
     image: todo1,
-    name: "React Todo Apps1",
+    name: "React Todo Apps",
     link: "https://todo-react-vite-puce.vercel.app/",
     aos : "fade-right",
-  },
-  {
-    image: todo2,
-    name: "React Todo Apps2",
-    link: "https://todo-react-1-sage.vercel.app/",
-    aos : "fade-left",
   },
   {
     image: nefa,
@@ -113,32 +107,6 @@ export const project = [
     aos : "fade-right",
   },
   {
-    image: nextblog,
-    name: "Next MyBlog",
-    link: "https://nextjs-blog-shop.vercel.app/",
-    aos : "fade-left",
-  },
-  {
-    image: memorize,
-    name: "Memorize Blog",
-    link: "https://mern-memorize-blog.vercel.app/",
-    aos : "fade-left",
-    delay : 200
-  },
-  {
-    image: fbclone,
-    name: "Facebook Clone",
-    link: "https://mern-fb-latihan.vercel.app/",
-    aos : "fade-right",
-    delay : 200
-  },
-  {
-    image: statistike,
-    name: "Statistika Chart",
-    link: "https://react-chart-statistika.vercel.app/",
-    aos : "fade-right",
-  },
-  {
     image: zanzan,
     name: "ZanZan.Shop",
     link: "https://react-shop-sandy.vercel.app/",
@@ -149,13 +117,6 @@ export const project = [
     name: "MERN Noteped",
     link: "https://react-notepad.vercel.app/",
     aos : "fade-left",
-    delay : 200
-  },
-  {
-    image: blog,
-    name: "MyBlog",
-    link: "https://react-blog-me.vercel.app/",
-    aos : "fade-right",
     delay : 200
   },
   {
