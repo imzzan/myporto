@@ -8,7 +8,7 @@ import { Button1, Button2 } from "../atoms";
 const Hero = () => {
   const downloadCv = () => {
     window.open(
-      "https://drive.google.com/file/d/1aTDW7ZqCfiwP81-jPkatjXHT3_gw7Qp5/view?usp=share_link",
+      "https://drive.google.com/file/d/1XX6KYdivijPSRbdmCwz6ouuFzAcY3lBC/view?usp=share_link",
       "_blank"
     );
   };
